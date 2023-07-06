@@ -29,43 +29,49 @@ This is a Python script that makes a Spotify account
    cd spotify_registration
    ```
    
-3. Once you have installed the program open the main.py file and change 'mail@example.com' to your own e-mail:
+3. Install Selenium:
+
+   ```shell
+   pip3 install --user selenium
+   ```
+   
+4. Once you have installed the program open the main.py file and change 'mail@example.com' to your own e-mail:
    
    ```shell
    setEmail.send_keys('mail@example.com')
    ```
    
-4. Change 'PASSWORD' to your own password:
+5. Change 'PASSWORD' to your own password:
    
    ```shell
    setPassword.send_keys('PASSWORD')
    ```
    
-5. Change 'PASSWORD' to your own password:
+6. Change 'PASSWORD' to your own password:
    
    ```shell
    setName.send_keys('name')
    ```
    
-6. Change '1' to your own birth day:
+7. Change '1' to your own birth day:
    
    ```shell
    setDay.send_keys('1')
    ```
    
-7. Change 'December' to your own birth moth:
+8. Change 'December' to your own birth moth:
    
    ```shell
    setMonth.send_keys('December')
    ```
    
-8. Change '2000' to your own birth year:
+9. Change '2000' to your own birth year:
    
    ```shell
    setYear.send_keys('2000')
    ```
    
-9. Run the program:
+10. Run the program:
 
    ```shell
    python main.py
