@@ -47,7 +47,7 @@ This is a Python script that makes a Spotify account
    setPassword.send_keys('PASSWORD')
    ```
    
-6. Change 'PASSWORD' to your own password:
+6. Change 'name' to your own name:
    
    ```shell
    setName.send_keys('name')
